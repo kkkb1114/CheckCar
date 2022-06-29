@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/CheckCar/app/src/main/res/layout/actionbar_carbook.xml" value="0.25181159420289856" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CheckCar/app/src/main/res/layout/activity_main.xml" value="0.15443840579710144" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/CheckCar/app/src/main/res/menu/bottomnavigation_menu.xml" value="0.25364583333333335" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2455" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/background_white_round.xml" value="0.2455" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bottomnavigation_menu_select_color.xml" value="0.2455" />

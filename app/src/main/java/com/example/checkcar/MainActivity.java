@@ -8,10 +8,10 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,7 +22,6 @@ import com.example.checkcar.Tools.CalenderManager;
 import com.example.checkcar.Tools.DialogManager;
 import com.google.android.material.navigation.NavigationBarView;
 
-import java.util.Calendar;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -32,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ImageView imageView_actionbarCarbook_searchButton;
     ConstraintLayout constraintLayout_actionbarCarbook_selectDate;
     TextView textView_actionbarCarbook_date;
+    LinearLayout LinearLayout_actionbarCarbook;
     long timeNow;
     Date date;
     CalenderManager calenderManager = new CalenderManager();
@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setView();
         setDateData();
         setBottomNavigationView();
-        setActionbarDate();
         dateHandler();
     }
 
@@ -54,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         imageView_actionbarCarbook_searchButton = findViewById(R.id.imageView_actionbarCarbook_searchButton);
         constraintLayout_actionbarCarbook_selectDate = findViewById(R.id.constraintLayout_actionbarCarbook_selectDate);
         textView_actionbarCarbook_date = findViewById(R.id.textView_actionbarCarbook_date);
+        LinearLayout_actionbarCarbook = findViewById(R.id.LinearLayout_actionbarCarbook);
 
         constraintLayout_actionbarCarbook_selectDate.setOnClickListener(this);
         imageView_actionbarCarbook_searchButton.setOnClickListener(this);
@@ -71,14 +71,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.home:
+                    case R.id.monitoring:
                         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout_activityMain, monitoringFragment).commit();
+                        setVisible(LinearLayout_actionbarCarbook, false);
+                        return true;
+                    case R.id.carbook:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout_activityMain, carbookFragment).commit();
+                        setActionbarDate();
+                        setVisible(LinearLayout_actionbarCarbook, true);
                         return true;
                     case R.id.setting:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout_activityMain, carbookFragment).commit();
-                        return true;
-                    case R.id.info:
                         getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout_activityMain, settingFragment).commit();
+                        setVisible(LinearLayout_actionbarCarbook, false);
                         return true;
                 }
                 return false;
@@ -105,6 +109,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void setActionbarDate() {
         //todo db 만들면 마지막 데이터를 기준으로 날짜를 지정하고 없을 경우 오늘 날짜로 예외처리 해야한다.
         textView_actionbarCarbook_date.setText(calenderManager.getDateFormat(date, "yyyy년MM월"));
+    }
+
+    // isVisible가 true면 받은 view를 보여주고 false면 숨긴다.
+    public void setVisible(View view, boolean isVisible){
+        if (isVisible){
+            view.setVisibility(View.VISIBLE);
+        }else {
+            view.setVisibility(View.GONE);
+        }
     }
 
 

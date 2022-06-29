@@ -2,19 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/home"
+        android:id="@+id/monitoring"
         android:enabled="true"
         android:icon="@drawable/ic_home"
         android:title="모니터링"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/setting"
+        android:id="@+id/carbook"
         android:enabled="true"
         android:icon="@drawable/ic_info"
         android:title="차계부"
         app:showAsAction="always"/>
     <item
-        android:id="@+id/info"
+        android:id="@+id/setting"
         android:enabled="true"
         android:icon="@drawable/ic_settings"
         android:title="설정"

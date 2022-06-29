@@ -4,6 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+    <LinearLayout
+        android:id="@+id/LinearLayout_actionbarCarbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar_actionbarCarbook_carbookActionBar"
         android:layout_width="match_parent"
@@ -56,4 +62,5 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+    </LinearLayout>
 </LinearLayout>
