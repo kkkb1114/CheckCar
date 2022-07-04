@@ -3,12 +3,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Carbook.CarbookFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="차계부" />
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout_carbookMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tabLayout_carbookMain_backgroundColor"
+            app:tabGravity="fill"
+            app:tabIndicatorAnimationMode="linear"
+            app:tabIndicatorColor="@color/tabLayout_carbookMain_tabIndicatorColor"
+            app:tabIndicatorHeight="3dp"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/tabLayout_carbookMain_tabTextColor">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tabItem_carbookMain_total" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tabItem_carbookMain_maintenanceOthers" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tabItem_carbookMain_fueling" />
+
+        </com.google.android.material.tabs.TabLayout>
+
+        <!--탭 레이아웃에 연결된 뷰페이저-->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2_carbookMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--탭 레이아웃에 연결된 뷰페이저-->
+
+    </LinearLayout>
 
 </FrameLayout>

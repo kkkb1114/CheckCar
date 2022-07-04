@@ -16,4 +16,20 @@
         <item name="android:textStyle">bold</item>
     </style>
     <!--MaterialCalendarView-->
+
+    <!--차계부 메인 페이지-->
+    <color name="tabLayout_carbookMain_backgroundColor">#2C2C2C</color>
+    <color name="tabLayout_carbookMain_tabIndicatorColor">#D1D1D1</color>
+    <color name="tabLayout_carbookMain_tabTextColor">#ABABAB</color>
+
+    <!--
+    <color name="mainhistorypageselectionItemBackground">#0D000000</color>
+    <color name="mainhistorypageIndicatorTextWSelect">#80000000</color>
+    <color name="mainhistorypageIndicator">#80000000</color>
+    <color name="mainhistorypageBottomLine">#0D000000</color>
+    <color name="mainhistoryPageYearItemBackground">#55D7A7</color>
+    <color name="mainhistoryPageMonthItemBackground">#F2F2F0</color>
+    <color name="mainhistoryPageYearText">#80000000</color>-->
+    <!--차계부 메인 페이지-->
+
 </resources>
