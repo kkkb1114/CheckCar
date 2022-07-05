@@ -27,16 +27,15 @@ public class CarbookFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_carbook, container, false);
+        View view = inflater.inflate(R.layout.fragment_carbookmain, container, false);
         setView(view);
         setTabLayout();
-        return inflater.inflate(R.layout.fragment_carbook, container, false);
+        return view;
     }
 
     public void setView(View view){
@@ -53,7 +52,7 @@ public class CarbookFragment extends Fragment {
         new TabLayoutMediator(tabLayout_carbookMain, viewPager2_carbookMain, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
-                //tab.setText(tabLayout_carbookMain_tabNameList.get(position));
+                tab.setText(tabLayout_carbookMain_tabNameList.get(position));
             }
         }).attach();
     }

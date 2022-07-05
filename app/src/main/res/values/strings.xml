@@ -41,4 +41,24 @@
     <string name="ItemMemoCharacterLimit">/250</string>-->
     <!--차계부 메인 페이지-->
 
+    <string name="year">년</string>
+    <string name="month2">월</string>
+    <string name="totalExpenditure">총 지출</string>
+
+    <string name="HistoryPageFullTab">전체</string>
+    <string name="HistoryPageMaintenanceOthers">정비/기타</string>
+    <string name="TotalMoney">총</string>
+    <string name="Accumulate">누적</string>
+    <string name="ItemMemoCharacterLimit">/250</string>
+
+    <color name="blackTransparent_5">#0D000000</color>
+    <color name="blackTransparent_10">#1A000000</color>
+    <color name="blackTransparent_20">#33000000</color>
+    <color name="blackTransparent_30">#4D000000</color>
+    <color name="blackTransparent_40">#66000000</color>
+    <color name="blackTransparent_50">#80000000</color>
+    <color name="blackTransparent_60">#99000000</color>
+    <color name="blackTransparent_70">#B3000000</color>
+    <color name="blackTransparent_80">#CC000000</color>
+    <color name="blackTransparent_90">#E6000000</color>
 </resources>
