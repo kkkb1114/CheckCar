@@ -19,15 +19,12 @@
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottomNavigationView_activityMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        app:labelVisibilityMode="labeled"
-        app:itemHorizontalTranslationEnabled="true"
-        app:itemBackground="@color/bottomNavigationView_activityMainColor"
-        app:itemTextColor="@drawable/bottomnavigation_menu_select_color"
-        app:itemIconTint="@drawable/bottomnavigation_menu_select_color"
-        app:menu="@menu/bottomnavigation_menu"/>
-
+    android:id="@+id/bottomNavigationView_activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    app:labelVisibilityMode="labeled"
+    app:itemHorizontalTranslationEnabled="true"
+    app:itemBackground="@color/bottomNavigationView_activityMainColor"
+    app:menu="@menu/bottomnavigation_menu"/>
 </LinearLayout>

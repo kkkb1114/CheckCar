@@ -288,7 +288,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_marginTop="10dp"
-                android:background="@color/TransparencyBlack_20" />
+                android:background="@color/blackTransparent_20" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_mainrecordItem"

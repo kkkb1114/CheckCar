@@ -4,19 +4,19 @@
     <item
         android:id="@+id/monitoring"
         android:enabled="true"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/back_icon"
         android:title="모니터링"
         app:showAsAction="always"/>
     <item
         android:id="@+id/carbook"
         android:enabled="true"
-        android:icon="@drawable/ic_info"
+        android:icon="@drawable/back_icon"
         android:title="차계부"
         app:showAsAction="always"/>
     <item
         android:id="@+id/setting"
         android:enabled="true"
-        android:icon="@drawable/ic_settings"
+        android:icon="@drawable/back_icon"
         android:title="설정"
         app:showAsAction="always"/>
 </menu>

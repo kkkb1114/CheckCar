@@ -4,12 +4,29 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2455" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable-xxxhdpi/bt_round_black.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/back_icon.xml" value="0.175" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/background_white_round.xml" value="0.2455" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_blur.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_box.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_box2.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_box3.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_drag_bar.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_legend_tag.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_legend_tag1.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_legend_tag2.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_legend_tag3.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_btmsh_replay_top.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bg_connection_btn.xml" value="0.175" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bottomnavigation_menu_select_color.xml" value="0.2455" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/bt_round_transparent.xml" value="0.175" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/circlebackground.xml" value="0.175" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/ic_home.xml" value="0.2455" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/ic_info.xml" value="0.2455" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2455" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/ic_settings.xml" value="0.2455" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/drawable/mtot_memo_item_background.xml" value="0.175" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/actionbar_carbook.xml" value="0.25" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/activity_main.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/custom_menu_carbookback_icon.xml" value="0.3703125" />
@@ -23,6 +40,7 @@
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/fragment_info.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/fragment_main.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/fragment_monitoring.xml" value="0.37135416666666665" />
+        <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/fragment_repair_item_select.xml" value="0.19124544033350704" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/fragment_setting.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/ic_settings.xml" value="0.37135416666666665" />
         <entry key="..\:/Users/kkkb1114/AndroidStudioProjects/CheckCar/app/src/main/res/layout/mainrecord_item.xml" value="0.3703125" />

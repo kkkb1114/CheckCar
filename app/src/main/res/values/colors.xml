@@ -8,6 +8,21 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <!--기타-->
+    <color name="backColor">#808080</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="blackTransparent_5">#0D000000</color>
+    <color name="blackTransparent_10">#1A000000</color>
+    <color name="blackTransparent_20">#33000000</color>
+    <color name="blackTransparent_30">#4D000000</color>
+    <color name="blackTransparent_40">#66000000</color>
+    <color name="blackTransparent_50">#80000000</color>
+    <color name="blackTransparent_60">#99000000</color>
+    <color name="blackTransparent_70">#B3000000</color>
+    <color name="blackTransparent_80">#CC000000</color>
+    <color name="blackTransparent_90">#E6000000</color>
+
     <!--MaterialCalendarView-->
     <!-- 여기서 요일, 달력 안 숫자들의 폰트 설정을 수행할 수 있다 -->
     <style name="MaterialCalendarView_CalenderViewCustom" parent="Theme.AppCompat">
@@ -47,4 +62,10 @@
     <color name="mainhistoryPageYearText">#80000000</color>
     <!--기록 페이지-->
 
+    <!--정비/기타 항목 선택-->
+    <color name="maintenanceItemColor">#80000000</color>
+    <color name="selectionCompleteColor">#1A000000</color>
+    <color name="maintenanceTabIndicatorTextWSelect">#80000000</color>
+    <color name="maintenanceTabIndicatorText">#1A000000</color>
+    <color name="maintenanceTabBottomLine">#0D000000</color>
 </resources>

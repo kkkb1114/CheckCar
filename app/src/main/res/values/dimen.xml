@@ -5,11 +5,13 @@
     <dimen name="locationTextSize">25sp</dimen>
 
 
+    <!--기타-->
+    <dimen name="replayIconMargin">10dp</dimen>
+
     <!--정비 기타 상단 텍스트 사이즈-->
     <dimen name="MaintenanceItemSelectionCount">15sp</dimen>
     <dimen name="MaintenanceItemSelectionComplete">15sp</dimen>
     <dimen name="currentTimeText">20dp</dimen>
-    <!--정비 기타 상단 텍스트 사이즈-->
 
     <!--정비/기타 항목 선택 텍스트 사이즈-->
     <dimen name="MaintenanceOtherItemTitle">70dp</dimen>
